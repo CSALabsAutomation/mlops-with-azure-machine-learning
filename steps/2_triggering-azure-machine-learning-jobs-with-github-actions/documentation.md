@@ -152,6 +152,7 @@ You can create a service principal, using the Cloud Shell in the Azure portal, w
 ```bash
 az ad sp create-for-rbac --name "<service-principal-name>" --role contributor --scopes /subscriptions/<subscription-id>/resourceGroups/<your-resource-group-name> --sdk-auth
 ```
+
 - The output of the service principal should be a JSON with the following structure.
 - The output for the service principal created by the Cloud Academy lab environment for your current lab session is below:
 
